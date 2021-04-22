@@ -1,0 +1,122 @@
+﻿@model EMR.Models.EditPatientModel
+
+@{
+    ViewData["Title"] = "Edit Patient";
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <header class="card-header">
+                <h4 class="card-title mt-2">Edit Patient Details</h4>
+            </header>
+            <article class="card-body">
+                <form asp-action="EditPatient">
+                    <input readonly type="hidden" asp-for="Key" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input readonly readonly asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Hospital" class="control-label"></label>
+                        <input readonly asp-for="Hospital" class="form-control">
+                        <span asp-validation-for="Hospital" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Age" class="control-label"></label>
+                        <input readonly asp-for="Age" class="form-control">
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Gender" class="control-label"></label>
+                        <input readonly asp-for="Gender" class="form-control">
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="ResidentialAddress" class="control-label"></label>
+                        <input readonly asp-for="ResidentialAddress" class="form-control">
+                        <span asp-validation-for="ResidentialAddress" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="PostalAddress" class="control-label"></label>
+                        <input readonly asp-for="PostalAddress" class="form-control">
+                        <span asp-validation-for="PostalAddress" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="ContactNumber" class="control-label"></label>
+                        <input readonly asp-for="ContactNumber" class="form-control">
+                        <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Education" class="control-label"></label>
+                        <input readonly asp-for="Education" class="form-control">
+                        <span asp-validation-for="Education" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Employer" class="control-label"></label>
+                        <input readonly asp-for="Employer" class="form-control">
+                        <span asp-validation-for="Employer" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Insurance" class="control-label"></label>
+                        <input readonly asp-for="Insurance" class="form-control">
+                        <span asp-validation-for="Insurance" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="FamilyHistory" class="control-label"></label>
+                        @Html.TextAreaFor(m => m.FamilyHistory, new { @class = "form-control", @readonly = "readonly" })
+                        <span asp-validation-for="FamilyHistory" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">
+                        <label asp-for="Medications" class="control-label"></label>
+                        @Html.TextAreaFor(m => m.Medications, new { @class = "form-control", @readonly = "readonly" })
+                        <span asp-validation-for="Medications" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100 h-50">
+                        <label asp-for="PastProblems" class="control-label"></label>
+                        @Html.TextAreaFor(m => m.PastProblems, new { @class = "form-control", @readonly = "readonly" })
+                        <span asp-validation-for="PastProblems" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100 h-50">
+                        <label asp-for="CurrentProblems" class="control-label"></label>
+                        @Html.TextAreaFor(m => m.CurrentProblems, new { @class = "form-control", @readonly = "readonly" })
+                        <span asp-validation-for="CurrentProblems" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100 h-50">
+                        <label asp-for="Allergies" class="control-label"></label>
+                        @Html.TextAreaFor(m => m.Allergies, new { @class = "form-control", @readonly = "readonly" })
+                        <span asp-validation-for="Allergies" class="text-danger"></span>
+                    </div>
+                    <div class="form-group w-100">                 
+                        <h3><label class="control-label">Examination Notes</label></h3>
+                        @foreach (var item in Model.PatientCommentModels)
+                        {
+                            <div class="form-group w-100 h-50">
+                                <b>@Html.DisplayTextFor(m => item.DoctorName)</b>
+                                (@Html.DisplayTextFor(m => item.Date))
+                                @Html.DisplayTextFor(m => item.Text)
+                            </div>
+
+                        }
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MedicalCondition" class="control-label"></label>
+                        @*<input readonly asp-for="MedicalCondition" class="form-control">*@
+                        @Html.TextAreaFor(m => m.MedicalCondition, new { @class = "form-control" })
+                        <span asp-validation-for="MedicalCondition" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-outline-success btn-block"> Save  </button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </div>
+</div>
+
+

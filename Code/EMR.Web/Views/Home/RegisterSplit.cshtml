@@ -1,0 +1,21 @@
+﻿@model EMR.Models.RegisterRequestModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <header class="card-header">
+                <h4 class="card-title mt-2">Register</h4>
+            </header>
+            <article class="card-body">
+                <a href="@Url.Action("RegisterPatient", "Home")"><div id="pickup" class="take_meals_opt">I am a Patient</div></a>
+                <a href="@Url.Action("RegisterDoctor", "Home")"><div id="delivery" class="take_meals_opt float-right">I am a Doctor</div></a>
+
+            </article>
+        </div>
+    </div>
+</div>
+
