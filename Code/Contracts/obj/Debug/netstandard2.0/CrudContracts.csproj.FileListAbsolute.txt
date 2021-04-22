@@ -1,8 +1,0 @@
-D:\LU\Grad proj\Code\crud\bin\Debug\netstandard2.0\CrudContracts.deps.json
-D:\LU\Grad proj\Code\crud\bin\Debug\netstandard2.0\CrudContracts.dll
-D:\LU\Grad proj\Code\crud\bin\Debug\netstandard2.0\CrudContracts.pdb
-D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\CrudContracts.AssemblyInfoInputs.cache
-D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\CrudContracts.AssemblyInfo.cs
-D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\CrudContracts.dll
-D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\CrudContracts.pdb
-D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\CrudContracts.csprojAssemblyReference.cache

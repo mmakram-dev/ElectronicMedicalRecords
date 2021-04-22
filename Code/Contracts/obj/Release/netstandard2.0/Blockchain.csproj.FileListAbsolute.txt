@@ -1,8 +1,0 @@
-D:\LU\Grad proj\Code\Contracts\bin\Release\netstandard2.0\Blockchain.deps.json
-D:\LU\Grad proj\Code\Contracts\bin\Release\netstandard2.0\Blockchain.dll
-D:\LU\Grad proj\Code\Contracts\bin\Release\netstandard2.0\Blockchain.pdb
-D:\LU\Grad proj\Code\Contracts\obj\Release\netstandard2.0\Blockchain.csprojAssemblyReference.cache
-D:\LU\Grad proj\Code\Contracts\obj\Release\netstandard2.0\Blockchain.AssemblyInfoInputs.cache
-D:\LU\Grad proj\Code\Contracts\obj\Release\netstandard2.0\Blockchain.AssemblyInfo.cs
-D:\LU\Grad proj\Code\Contracts\obj\Release\netstandard2.0\Blockchain.dll
-D:\LU\Grad proj\Code\Contracts\obj\Release\netstandard2.0\Blockchain.pdb
