@@ -1,0 +1,3 @@
+D:\LU\Grad proj\Code\obj\Debug\netstandard2.0\EthereumSmartContracts.csprojAssemblyReference.cache
+D:\LU\Grad proj\Code\obj\Debug\netstandard2.0\EthereumSmartContracts.AssemblyInfoInputs.cache
+D:\LU\Grad proj\Code\obj\Debug\netstandard2.0\EthereumSmartContracts.AssemblyInfo.cs

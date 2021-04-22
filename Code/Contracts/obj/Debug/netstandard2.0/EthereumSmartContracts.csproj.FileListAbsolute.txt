@@ -1,0 +1,8 @@
+D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\EthereumSmartContracts.csprojAssemblyReference.cache
+D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\EthereumSmartContracts.AssemblyInfoInputs.cache
+D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\EthereumSmartContracts.AssemblyInfo.cs
+D:\LU\Grad proj\Code\crud\bin\Debug\netstandard2.0\EthereumSmartContracts.deps.json
+D:\LU\Grad proj\Code\crud\bin\Debug\netstandard2.0\EthereumSmartContracts.dll
+D:\LU\Grad proj\Code\crud\bin\Debug\netstandard2.0\EthereumSmartContracts.pdb
+D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\EthereumSmartContracts.dll
+D:\LU\Grad proj\Code\crud\obj\Debug\netstandard2.0\EthereumSmartContracts.pdb
